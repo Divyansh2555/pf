@@ -52,7 +52,7 @@ nav ul li a {
 
 .home {
   background: linear-gradient(45deg, #4facfe, #00f2fe);
-  color: white;
+  color: rgb(153, 40, 40);
 }
 
 .btn {
@@ -65,35 +65,7 @@ nav ul li a {
   border-radius: 5px;
 }
 
-/* Skills */
-.box {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
 
-.box span {
-  background: #eee;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Projects */
-.projects {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #f4f4f4;
-  padding: 20px;
-  width: 200px;
-  border-radius: 10px;
-}
 
 /* Contact */
 form {
