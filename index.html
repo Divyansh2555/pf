@@ -2,60 +2,121 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
 
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/home.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-  <header class="header">
-    <h2 class="logo">Divyansh</h2>
-
-    <nav>
-      <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="menu-btn" id="menuBtn">☰</div>
-  </header>
-
-  <main>
-
-    <!-- HERO HOME -->
-    <section class="section home">
-
-      <div class="row">
+    <header>
         <div class="container">
+            <nav aria-label="Main-Navigation">
+                <div class="logo">kunnal <span>.</span></div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-regular fa-moon"></i>
+                </ul>
+            </nav>
         </div>
-      </div>
+    </header>
+    <main>
+        <section class="Hero-section">
+            <div class="Content">
+                <p>Hi, I am </p>
+                <h1>Kunal <span>singh</span></h1>
+                <p>I'm a Frontend Developer | </p>
+                <p>I build responsive and user-friendly websites with modern technologies</p>
+            </div>
+            <figure class="hero-img">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/033/129/417/small/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg"
+                    alt="Kunal singh">
+            </figure>
+        </section>
 
-      <h1 class="home-title">Hi, I'm <span>Divyansh</span></h1>
+        <div class="button" id="btn">
+            <a href="#">Hire Me</i></a>
+            <a href="#">Download CV</a>
+        </div>
 
-      <p class="home-subtitle">A passionate web developer creating beautiful and functional websites.</p>
-      </div>
+        <div class="social-links">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
 
-  </main>
 
-  <footer class="footer">
-    <p>
-      <i class="fas fa-user"></i> Divyansh |
-      <i class="fas fa-user"></i>Prince gangwar |
+        <div>
+            <section class="About" id="About">
+                <div class="container">
+                    <div class="About-content">
+                        <div class="about-img">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/053/630/733/small/a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-photo.jpeg"
+                                alt="kunal singh">
+                            <h2>About <span>Me </span></h2>
+                            <p>I'm a passionate Frontend Developer who loves building clean, responsive, and
+                                user-freindly websites.
+                                I enjoy turning ideas into real digital experiences</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="intro">
+            <section class="detail-info">
+                <i class="fa-solid fa-user"></i>
+                <h3>Name:</h3>
+                <p>Kunal singh</p>
+            </section>
+            <section class="detail-info">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email:</h3>
+                <p>Kunal@example.com</p>
+            </section>
+            <section class="detail-info">
+                <i class="fa-solid fa-cake-candles"></i>
+                <h3>Age:</h3>
+                <p>22</p>
+            </section>
+            <section class="detail-info">
+                <i class="fa-solid fa-location-pin"></i>
+                <h3>Location:</h3>
+                <p>India</p>
+            </section>
+        </div>
 
-      <i class="fas fa-envelope"></i> singhmanash540@gmail.com |
-      <i class="fas fa-location-dot"></i> Bareilly, India
-    </p>
-  </footer>
+        <div class="Skill-tech">
+            <section class="skills-info">
+                <i class="fa-brands fa-html5"></i>HTML
+            </section>
+            <section class="skills-info">
+                <i class="fa-brands fa-css3-alt"></i></i>CSS
+            </section>
+            <section class="skills-info">
+                <i class="fa-brands fa-js"></i>Java script
+            </section>
+            <section class="skills-info">
+                <i class="fa-brands fa-react"></i>React
+            </section>
+            <section class="skills-info">
+                <i class="fa-brands fa-git-alt"></i>Git&Github
+            </section>
+            <section class="skills-info">
+                <i class="fa-brands fa-bootstrap"></i>Bootstrap
+            </section>
+        </div>
 
-  <script src="js/script.js"></script>
+    </main>
+
 </body>
 
-</html>>
+</html>
