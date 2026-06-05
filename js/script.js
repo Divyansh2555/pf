@@ -1,13 +1,27 @@
-const menuBtn = document.getElementById("menuBtn");
-const menu = document.getElementById("menu");
+document.addEventListener("DOMContentLoaded", () => {
 
-// mobile menu toggle
-menuBtn.addEventListener("click", () => {
-  menu.classList.toggle("show");
-});
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
+    const themeBtn = document.getElementById("themeBtn");
 
-// form submit
-document.getElementById("form").addEventListener("submit", function(e){
-  e.preventDefault();
-  alert("Message sent successfully!");
+    // Mobile Menu Toggle
+    if (menuBtn && menu) {
+        menuBtn.addEventListener("click", () => {
+            menu.classList.toggle("show");
+        });
+    }
+
+    // Dark / Light Mode Toggle
+    if (themeBtn) {
+        themeBtn.addEventListener("click", () => {
+
+            const isLight = document.body.classList.toggle("light-mode");
+
+            // icon change (clean logic)
+            themeBtn.classList.toggle("fa-moon", !isLight);
+            themeBtn.classList.toggle("fa-sun", isLight);
+
+        });
+    }
+
 });
