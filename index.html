@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyansh - Full Stack Developer | Portfolio</title>
 
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/home.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
@@ -18,6 +18,9 @@
     <header class="header">
 
         <h2 class="logo">Divyansh</h2>
+
+        <!-- FIX: id already correct -->
+        <div class="menu-btn" id="menuBtn">☰</div>
 
         <nav>
             <ul id="menu">
@@ -33,106 +36,37 @@
             </ul>
         </nav>
 
-        <div class="menu-btn" id="menuBtn">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
     </header>
 
-    <main>
-        
-        <section class="Hero-section">
-            <div class="Content">
-                <p>Hi, I am </p>
-                <h1>Kunal <span>singh</span></h1>
-                <p>I'm a Frontend Developer | </p>
-                <p>I build responsive and user-friendly websites with modern technologies</p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="content">
+            <p class="hi">Hi, I am</p>
+
+            <h1>
+                Divyansh <span>Singh</span>
+            </h1>
+
+            <p class="role">
+                I am a <span>Developer</span> |
+            </p>
+
+            <div class="buttons">
+                <button class="btn primary">Hire Me</button>
+                <button class="btn outline">
+                    Download CV <i class="fa fa-download"></i>
+                </button>
             </div>
-            <figure class="hero-img">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/033/129/417/small/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg"
-                    alt="Kunal singh">
-            </figure>
-        </section>
 
-        <div class="button" id="btn">
-            <a href="#">Hire Me</i></a>
-            <a href="#">Download CV</a>
+            <!-- SOCIAL ICONS -->
+            <div class="social">
+                <div class="icon"><i class="fa fa-comment"></i></div>
+                <div class="icon filled"><i class="fa fa-envelope"></i></div>
+                <div class="icon filled"><i class="fa fa-user"></i></div>
+                <div class="icon"><i class="fa fa-location-dot"></i></div>
+            </div>
         </div>
-
-        <div class="social-links">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
-
-
-        <div>
-            <section class="About" id="About">
-                <div class="container">
-                    <div class="About-content">
-                        <div class="about-img">
-                            <img src="https://static.vecteezy.com/system/resources/thumbnails/053/630/733/small/a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-photo.jpeg"
-                                alt="kunal singh">
-                            <h2>About <span>Me </span></h2>
-                            <p>I'm a passionate Frontend Developer who loves building clean, responsive, and
-                                user-freindly websites.
-                                I enjoy turning ideas into real digital experiences</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="intro">
-            <section class="detail-info">
-                <i class="fa-solid fa-user"></i>
-                <h3>Name:</h3>
-                <p>Kunal singh</p>
-            </section>
-            <section class="detail-info">
-                <i class="fa-solid fa-envelope"></i>
-                <h3>Email:</h3>
-                <p>Kunal@example.com</p>
-            </section>
-            <section class="detail-info">
-                <i class="fa-solid fa-cake-candles"></i>
-                <h3>Age:</h3>
-                <p>22</p>
-            </section>
-            <section class="detail-info">
-                <i class="fa-solid fa-location-pin"></i>
-                <h3>Location:</h3>
-                <p>India</p>
-            </section>
-        </div>
-
-        <div class="Skill-tech">
-            <section class="skills-info">
-                <i class="fa-brands fa-html5"></i>HTML
-            </section>
-            <section class="skills-info">
-                <i class="fa-brands fa-css3-alt"></i></i>CSS
-            </section>
-            <section class="skills-info">
-                <i class="fa-brands fa-js"></i>Java script
-            </section>
-            <section class="skills-info">
-                <i class="fa-brands fa-react"></i>React
-            </section>
-            <section class="skills-info">
-                <i class="fa-brands fa-git-alt"></i>Git&Github
-            </section>
-            <section class="skills-info">
-                <i class="fa-brands fa-bootstrap"></i>Bootstrap
-            </section>
-        </div>
-
- 
-
-
-
-
-    </main>
+    </section>
 
     <footer class="footer">
         <p>
@@ -145,5 +79,4 @@
     <script src="js/script.js"></script>
 
 </body>
-
 </html>
