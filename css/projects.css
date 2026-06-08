@@ -1,47 +1,73 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
 
-/* Header */
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: #111;
-  color: rgb(74, 24, 174);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
+/* HEADER */
+.header{
+    height: 60px;
+    background: #3b5794;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 3%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.logo {
-  font-size: 20px;
+/* LOGO */
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #00d4ff;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
+/* NAV */
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
-.menu-btn {
-  display: none;
-  font-size: 25px;
-  cursor: pointer;
+nav ul li a:hover{
+    color: #00d4ff;
 }
+
+/* ICON */
+#themeBtn{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* MENU BTN */
+.menu-btn{
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 /* Sections */
 .section {
@@ -70,6 +96,7 @@ nav ul li a {
   width: 200px;
   border-radius: 10px;
 }
+
 
 
 
