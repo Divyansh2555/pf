@@ -101,42 +101,43 @@ nav ul li a:hover{
 
 
 
-/* Footer */
+
+/* FOOTER */
 .footer {
-  background: #0f1627; /* dark navy */
+  background: #0f1627;
   color: #fff;
   text-align: center;
   padding: 20px;
 }
 
-.footer p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.8;
-}
+/* ========================= */
+/* 🔥 FIXED RESPONSIVE MENU */
+/* ========================= */
 
-.footer i {
-  color: #00f2fe;
-  margin-right: 5px;
-}
+@media (max-width: 768px){
 
-/* Responsive */
-@media(max-width:768px) {
-  nav ul {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: #111;
-    flex-direction: column;
-    width: 200px;
-    display: none;
-  }
+    .menu-btn{
+        display: block;
+    }
 
-  nav ul.show {
-    display: flex;
-  }
+    nav{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 220px;
+        background: #3b5794;
+        display: none;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-  .menu-btn {
-    display: block;
-  }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* FIX: THIS IS IMPORTANT */
+    nav.active{
+        display: flex;
+    }
 }

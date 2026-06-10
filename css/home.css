@@ -114,8 +114,26 @@ nav ul li a:hover{
 .social{
   margin-top: 20px;
   display: flex;
-  gap: 12px;
+  gap: 30px;
+ height: 50px;
+ color: #00d4ff
 }
+
+.icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #afd2f1;
+}
+
+.icon i{
+    color:rgb(25, 4, 186);
+    text-decoration: none;
+}
+
 
 /* FOOTER */
 .footer {
@@ -129,7 +147,7 @@ nav ul li a:hover{
 /* 🔥 FIXED RESPONSIVE MENU */
 /* ========================= */
 
-@media (max-width: 768px){
+@media (max-width: 600px){
 
     .menu-btn{
         display: block;
@@ -139,8 +157,8 @@ nav ul li a:hover{
         position: absolute;
         top: 60px;
         right: 0;
-        width: 220px;
-        background: #3b5794;
+        width: 200px;
+        background: #678ad6;
         display: none;
         flex-direction: column;
         padding: 10px;
@@ -148,7 +166,7 @@ nav ul li a:hover{
 
     nav ul{
         flex-direction: column;
-        gap: 15px;
+        gap: 13px;
     }
 
     /* FIX: THIS IS IMPORTANT */
